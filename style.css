@@ -1,0 +1,161 @@
+body {font-family: Arial, Helvetica, sans-serif;
+  background: rgb(0, 0, 0);
+}
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+html{
+    font-size: 62.5%;
+}
+body>h3{
+  text-align: center;
+  color: #ff5722;
+  font-size: 5rem;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.container {
+  border-radius: 5px;
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap-reverse;
+  height: 100vh;
+  align-content: center;
+}
+
+.side1{
+  width: 50vw;
+  align-self: center;
+}
+.side2{
+  width: 40vw;
+}
+
+
+
+
+        /* Details  */
+.details > ul{
+    list-style:none;
+}
+.details > ul > li{
+  padding-top: 2vh;
+}
+
+.ctmi{
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 1.4rem;
+}
+
+.detailin>a{
+  color: rgb(0, 0, 0);
+  margin-left: 3vw;
+  font-size: 1.8rem;
+}
+
+#imap{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  }
+.detailin>iframe{
+  color: rgb(0, 0, 0);
+  margin-left: 3vw;
+  font-size: 1.8rem;
+  align-self: baseline;
+}
+
+
+
+
+
+        /* form  */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+}
+input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  width: 100vw;
+ }
+ .side1{
+  width: 100Vw;
+ }
+ .side2{
+  width: 100vw;
+ }
+}
+
+@media (max-width: 768px) {
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    width: 100vw;
+   }
+   .side1{
+    width: 100Vw;
+   }
+   .side2{
+    width: 100vw;
+   }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  label{
+    font-size: 1.4rem;
+  }
+}

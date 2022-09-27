@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+      <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+         <!-- header section starts  -->
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a  href="#" class="logo">
+        <i class="fas fa-car-side"><span> GoZoom</span></i>
+      </a>
+
+      <nav class="navbar">
+        <a  href="#home">home</a>
+        <a  href="#about">about</a>
+        <a  href="#destination"
+          >destination</a
+        >
+        <a href="#services"
+          >services</a
+        >
+        <a href="#gallery"
+          >gallery</a
+        >
+        <a href="#cm">Customer Care</a>
+      </nav>
+
+      <a
+        href="#book-form"
+        class="btn"
+        >book now</a
+      >
+    </header>
+
+    <!-- header section ends -->
+
+<!-- ************************************************************************************************ -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <span >GoZoom</span>
+        <h3 >Budget car hire</h3>
+        <p >
+          Gozoom is india's car rental service provider. Ours fleet consists of various premium cars across India and cities specially in Delhi NCR.
+        </p>
+        <a href="#" class="btn"
+          >book now</a
+        >
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+<!-- ************************************************************************************************ -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <div class="img-container">
+        <img src="images/abt.jpeg" alt="" />
+      </div>
+
+      <div class="content">
+        <span>Our console</span>
+        <h3>We have somthing you really need to know</h3>
+        <p>
+          we are Gozoom, You can rent your car for days, weeks, months, short or long term because we have the one of the most modern car hire fleets and less than a year old with express pick-up and key collection services without going to the desk Gozoom. Remember that we have reduced prices in low season
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+<!-- ************************************************************************************************ -->
+
+    <!-- popular section starts  -->
+
+    <section
+      class="popular"
+      id="popular"
+      >
+      <div class="heading">
+        <span>Top Rated</span>
+        <h1>Most popular Vehicles</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<i>20000</i> </span>
+          <img src="images/p-1.jpeg" alt="" />
+          <h3>BMW</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<span>20000</span> </span>
+          <img src="images/p-2.jpeg" alt="" />
+          <h3>mercedes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<span>20000</span> </span>
+          <img src="images/p-3.jpeg" alt="" />
+          <h3>Range Rover</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<span>20000</span> </span>
+          <img src="images/p-4.jpeg" alt="" />
+          <h3>porche</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<span>20000</span> </span>
+          <img src="images/p-5.jpeg" alt="" />
+          <h3>Nisan X</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+          <span class="price"> &#8377<span>5000</span> - &#8377<span>20000</span> </span>
+          <img src="images/p-6.jpeg" alt="" />
+          <h3>ferrari</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular section ends -->
+    
+<!-- ************************************************************************************************ -->
+
+    <!-- destination section starts  -->
+
+    <section class="destination" id="destination">
+      <div class="heading">
+        <span>Why should you Choose Us?</span>
+        <h1>On road assistance high quality check</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/des1" alt="" />
+          </div>
+          <div class="content">
+            <h3>Assemble and automotive</h3>
+            <p>Willing to deal with site issues.</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/des3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>High quality transmission and parts alignment</h3>
+            <p>Tooling Design, repair and validation.</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/male.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Customer Care</h3>
+            <p>Contact our customer care executive and register your problem</p>
+            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- destination section ends -->
+
+<!-- ************************************************************************************************ -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <div class="heading">
+        <span>our customers </span>
+        <h1>reviews</h1>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/divye_comment_img.jpg" alt="" />
+          <h4>Divye Singh</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            I found this service really interesting. i had a hard time booking a car,i visited different car rental sites which was very irritating but GoZoom solve every problem. It is a one-stop solution for all self driven car,and car related problems.
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/praveen3_comment_img.jpeg" alt="" />
+          <h4>Praveen Singh</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            I just booked my car through this site and found it really useful. The Gozoom allows you to plan small to far distance trips with reasonable rates. Also the support is very Authentic and supportive.
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/ritik_comment_img.jpeg" alt="" />
+          <h4>Ritik Virus</h4>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            The experience was very good with GoZoom service and the Vehicles was in really good condition, Didn't gave me problem of any sort. Definitely recommend it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+<!-- ************************************************************************************************ -->
+
+    <!-- banner section starts  -->
+
+    <div class="banner">
+      <div class="content">
+        <span>NEWSLETTER</span>
+        <h3>SUBSCRIBE for latest news</h3>
+        <form action="#">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="input"
+          />
+        </form>
+        <a href="#" class="btn">subscribe</a>
+      </div>
+    </div>
+
+    <!-- banner section ends -->
+    
+<!-- ************************************************************************************************ -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box" >
+          <a href="#" class="logo"> <i class="fas fa-car-side"></i><span  class="carfoot"> GoZoom</span></a>
+          <p>
+            Still Looking For Holiday Car Rental ? Book Early Now at The Airport and Save Up 20% Our Constant Car Rental Market Awareness Guarantee The Best Possible Rates For you Needs Ad?.
+          </p>
+          <div class="share">
+            <a href="https://www.facebook.com/Ritik0Virus/" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="#" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/ajaxasynchronous/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/ritik-7a888a201/" target="_blank" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#about" class="links">
+            <i class="fas fa-arrow-right"></i> about
+          </a>
+          <a href="#destination" class="links">
+            <i class="fas fa-arrow-right"></i> destination
+          </a>
+          <a href="#services" class="links">
+            <i class="fas fa-arrow-right"></i> services
+          </a>
+          <a href="#gallery" class="links">
+            <i class="fas fa-arrow-right"></i> gallery
+          </a>
+          <a href="#blogs" class="links">
+            <i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <p><i class="fas fa-map"></i> Rohini, Delhi</p>
+          <p><i class="fas fa-phone"></i><a href="tel:8920279167" class="foot">+91-8920279167</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:ritikvirus6@gmail.com" class="foot">ritikvirus6@gmail.com</a> </p>
+          <p><i class="fas fa-clock"></i> 9:00am - 5:00pm</p>
+        </div>
+
+        <div class="box last_sub">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              class="email"
+              id=""
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      created by <span>ritik & praveen</span> | all rights reserved!
+    </div>
+
+    <!-- footer section ends -->
+
+<!-- ************************************************************************************************ -->
+  </body>
+</html>
